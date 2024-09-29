@@ -1,0 +1,87 @@
+@media screen and (min-width: 992px) {
+  .navbar {
+    .navbar-brand {
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .offcanvas {
+      .offcanvas-body {
+        padding-top: 0;
+        .navbar-nav {
+          .nav-item {
+            border-bottom: 0;
+            padding: 0;
+            .nav-link {
+              &:hover {
+                background-color: rgb(14, 14, 14);
+              }
+
+              h3 {
+                font-size: 1rem;
+                font-weight: 400;
+                color: whitesmoke;
+                margin: 0 0.5rem;
+              }
+              p {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+
+      .offcanvas-footer {
+        display: none;
+      }
+    }
+  }
+
+  // hero section
+
+  .hero-section {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+
+    .hero-description {
+      font-size: 1rem;
+      width: 75%;
+      margin: 0 auto 1.2rem;
+    }
+
+    .hero-images {
+      .hero-game-img {
+        width: 100px;
+        height: 100px;
+
+        &:hover {
+          opacity: 1;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  // about section
+
+  .about {
+    padding: 4rem 1rem;
+    h1 {
+      font-size: 4rem;
+    }
+
+    .btn {
+      width: 50%;
+    }
+
+    p {
+      color: whitesmoke;
+    }
+
+    img {
+      border-radius: 0.5rem;
+    }
+  }
+}

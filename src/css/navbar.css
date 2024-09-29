@@ -1,0 +1,68 @@
+.navbar {
+  background-color: black;
+  color: white;
+  box-shadow: 0 5px 10px 0 rgb(11, 11, 11);
+}
+.navbar .navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+.navbar .navbar-toggler {
+  padding: 0;
+  color: inherit;
+  font-size: 1.5rem;
+  border: 0;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+  border: 0;
+  outline: none;
+}
+.navbar .offcanvas {
+  width: 90%;
+  background-color: black;
+  color: white;
+}
+.navbar .offcanvas .offcanvas-header .offcanvas-title {
+  font-weight: bold;
+}
+.navbar .offcanvas .offcanvas-body {
+  padding-top: 0;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item {
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+  color: white;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+  background-color: rgb(14, 14, 14);
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link h3 {
+  font-size: 7.5vw;
+  font-weight: bold;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link p {
+  color: whitesmoke;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu {
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  width: -moz-max-content;
+  width: max-content;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: inherit;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: gray;
+}/*# sourceMappingURL=navbar.css.map */

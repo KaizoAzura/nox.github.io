@@ -1,0 +1,28 @@
+.btn {
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+  border-radius: 2rem;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+  }
+
+  &.btn-white {
+    background-color: white;
+    border: 0;
+    color: black;
+  }
+
+  &.btn-blue {
+    background-color: #466be1;
+    color: white;
+  }
+
+  &.btn-transparent {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+  }
+}

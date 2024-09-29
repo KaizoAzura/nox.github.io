@@ -1,0 +1,106 @@
+@import "component";
+@import "navbar";
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: black;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: black;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(black, #466be1, black);
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background: linear-gradient(black, #9e46e1, black);
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
+
+// hero section
+
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(circle, rgb(13, 13, 13), black);
+  color: white;
+  overflow: hidden;
+
+  .container {
+    z-index: 2;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-weight: 300;
+  }
+
+  .hero-link {
+    font-size: 1rem;
+    color: #00aaff;
+    text-decoration: none;
+  }
+
+  .hero-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    .hero-app-img {
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      opacity: 0.8;
+      transition: transform 0.5s ease;
+
+      &:hover {
+        opacity: 0.5;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+// about section
+
+.about {
+  h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  .btn {
+    border-radius: 0.25rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  p {
+    color: whitesmoke;
+  }
+
+  img {
+    border-radius: 1rem;
+  }
+}

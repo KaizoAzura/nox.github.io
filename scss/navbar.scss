@@ -1,0 +1,82 @@
+.navbar {
+  background-color: black;
+  color: white;
+  box-shadow: 0 5px 10px 0 rgb(11, 11, 11);
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .navbar-toggler {
+    padding: 0;
+    color: inherit;
+    font-size: 1.5rem;
+    border: 0;
+
+    &:focus {
+      box-shadow: none;
+      border: 0;
+      outline: none;
+    }
+  }
+
+  .offcanvas {
+    width: 90%;
+    background-color: black;
+    color: white;
+    .offcanvas-header {
+      .offcanvas-title {
+        font-weight: bold;
+      }
+    }
+
+    .offcanvas-body {
+      padding-top: 0;
+      .navbar-nav {
+        .nav-item {
+          border-bottom: 1px solid gray;
+          padding-bottom: 0.5rem;
+          padding-top: 0.5rem;
+          .nav-link {
+            color: white;
+            width: 100%;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+
+            &:hover {
+              background-color: rgb(14, 14, 14);
+            }
+
+            h3 {
+              font-size: 7.5vw;
+              font-weight: bold;
+            }
+            p {
+              color: whitesmoke;
+              font-weight: 300;
+              font-size: 0.9rem;
+            }
+          }
+
+          .dropdown-menu {
+            border: 1px solid white;
+            border-radius: 0.5rem;
+            background-color: black;
+            color: white;
+            width: max-content;
+
+            .dropdown-item {
+              color: inherit;
+
+              &:hover {
+                background-color: gray;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

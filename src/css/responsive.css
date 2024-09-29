@@ -1,0 +1,59 @@
+@media screen and (min-width: 992px) {
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 60px;
+  }
+  .navbar .offcanvas .offcanvas-body {
+    padding-top: 0;
+  }
+  .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item {
+    border-bottom: 0;
+    padding: 0;
+  }
+  .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgb(14, 14, 14);
+  }
+  .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 0 0.5rem;
+  }
+  .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link p {
+    display: none;
+  }
+  .navbar .offcanvas .offcanvas-footer {
+    display: none;
+  }
+  .hero-section .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-section .hero-description {
+    font-size: 1rem;
+    width: 75%;
+    margin: 0 auto 1.2rem;
+  }
+  .hero-section .hero-images .hero-game-img {
+    width: 100px;
+    height: 100px;
+  }
+  .hero-section .hero-images .hero-game-img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  .about {
+    padding: 4rem 1rem;
+  }
+  .about h1 {
+    font-size: 4rem;
+  }
+  .about .btn {
+    width: 50%;
+  }
+  .about p {
+    color: whitesmoke;
+  }
+  .about img {
+    border-radius: 0.5rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */
